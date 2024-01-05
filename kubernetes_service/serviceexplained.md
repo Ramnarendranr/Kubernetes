@@ -18,4 +18,9 @@ To overcome this issue, kubernetes has a **service**.
 **What service does in kubernetes?**
 1. Load balancer
 2. service discovery - instead of ip, gives **labels and selectors**
-3. expose to world
+3. expose to world - allows application to access outside the kubernetes cluster
+
+SERVICE:
+1. cluster ip - no one has access except who has access to kuberenetes
+2. nopeport - anyone who has access to any of the worker nodes, say EC2 instances, or VPC access.
+3. Loadbalancer - anyone who has access to internet can access 
