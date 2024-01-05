@@ -15,8 +15,9 @@ the main components in worker node are:
 
 Components in master node are:
   1. **API server**: exposes the Kubernetes/heart of Kubernetes
-  2. **Scheduler**: scheduling pods or resources in Kubernetes, scheduling is done by API server (serve on which slave/worker node)
-  3. **etcd**: key value store (backup) , stored as objects or key value pairs
-  4. **controller manager**: to control the automated process such as autoscaling/autohealing
-  5. **cloud controller manager**: manages the cloud platform that’s linked to/with Kubernetes.
+     manages the worker nodes and the Pods in the cluster
+  3. **Scheduler**: scheduling pods or resources in Kubernetes, scheduling is done by API server (serve on which slave/worker node)
+  4. **etcd**: key value store (backup) , stored as objects or key value pairs
+  5. **controller manager**: to control the automated process such as autoscaling/autohealing
+  6. **cloud controller manager**: manages the cloud platform that’s linked to/with Kubernetes.
 
