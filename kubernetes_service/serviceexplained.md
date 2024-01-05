@@ -1,3 +1,5 @@
+**SERVICE - svc**
+
 **Why do you need service in kubernetes?**
 
 eventhough Deployment.yaml solves the problem of autoscaling, the ip address will be difference once the pods come up. 
